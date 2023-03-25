@@ -13,3 +13,11 @@ Authors: Caleb, Sam, Thomas
 1. tif 30 meter resolution
 1. put in same projectioon
 1. calculate statistics 
+
+
+E = m_dot*g*head*efficiency
+eff = 0.9
+mdot = flow rate in kg/s
+        - can convert from volumetric flow rate to mass flow rate by multiplying by the density - 997 kg/m^3 
+g  =9.81 m/s^s
+h = head in meters 
