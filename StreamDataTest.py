@@ -3,7 +3,7 @@ from StreamData import StreamData
 def sort(arr):
     for x in range(len(arr)):
         for y in range(x+1, len(arr)):
-            if(arr[x].compareTo(arr[y])<0):
+            if(arr[y]>arr[x]):
                 temp = arr[x]
                 arr[x] = arr[y]
                 arr[y] = temp

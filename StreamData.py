@@ -7,7 +7,10 @@ class StreamData:
         self.height = height
     def __str__(self):
         return f"{self.name}: Latitude: {self.lat}, Longitude: {self.long}, Velocity: {self.flow}, Height: {self.height}"   
-    def compareTo(self, other):
+    def __gt__(self, other):
         selfE = self.flow*9.81*self.height*0.9
         otherE = other.flow*9.81*other.height*0.9
-        return selfE-otherE
+        if(selfE-otherE>0):
+            return True
+        else:
+            return False
