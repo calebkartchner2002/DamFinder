@@ -13,5 +13,5 @@ streams = []
 streams.append(stream1)
 streams.append(stream2)
 sort(streams)
-print(stream1)
-print(streams[0])
+for elem in streams:
+    print(elem)
