@@ -8,7 +8,11 @@ Authors: Caleb, Sam, Thomas
 1. max height
 
 ### Instructions
-1. navigate to url{https://opendata.gis.utah.gov/search?groupIds=4de5aefb5f6540348da4c633bd57cced}
+
+* Arc GIS stream information {https://gis.utah.gov/data/water/lakes-rivers-dams/}
+* 
+* code apis with {https://opendata.gis.utah.gov/search?groupIds=4de5aefb5f6540348da4c633bd57cced}
+
 1. arc py
 1. tif 30 meter resolution
 1. put in same projectioon
